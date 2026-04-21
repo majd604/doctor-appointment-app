@@ -6,102 +6,71 @@ A modern Flutter-based doctor appointment application that allows users to explo
 
 ## Overview
 
-**Doctor Appointment App** is a complete healthcare booking mobile application built with **Flutter** and powered by **Firebase**.
+Doctor Appointment App is a complete healthcare booking mobile application built with Flutter and powered by Firebase.
 
-The app is designed to provide a smooth and intuitive user journey, starting from splash and onboarding, moving through authentication and doctor discovery, and ending with appointment booking, messaging, and profile management.
+The app provides a smooth user journey starting from onboarding and authentication, مرورًا بتصفح الأطباء والتخصصات، وصولًا إلى الحجز والدردشة وإدارة الحساب.
 
-The project follows a **feature-based architecture** and uses **BLoC** for state management, making the codebase clean, maintainable, and easy to scale for future enhancements.
+The project follows a feature-based architecture with BLoC state management for scalability and clean code.
 
 ---
 
 ## Key Features
 
 ### Authentication
-- Register with email and password
-- Login with email and password
+- Email & Password Login / Register
 - Google Sign-In
 - Logout
-- Input validation
-- Forgot password flow
+- Validation & Error Handling
 
 ### Onboarding & Splash
 - Custom splash screen
-- Onboarding flow for first-time users
-- Smooth entry experience for new users
+- Smooth onboarding experience
 
 ### Home
-- Personalized welcome section
-- Medical categories preview
-- Top doctors preview
+- Welcome section
+- Categories preview
+- Top doctors
 - Search UI
-- Clean and modern layout
 
 ### Categories
-- View all medical categories
-- Dynamic category loading from Firebase
-- Icon mapping based on category data
+- Dynamic categories from Firebase
+- Icon mapping system
 
 ### Doctors
-- View top doctors
-- View all doctors
-- Doctor details screen
-- Doctor information, specialty, pricing, and description
+- Doctor listing
+- Doctor details
+- Specialty & pricing
 
 ### Appointments
 - Book appointments
-- Select date and time
-- Add optional notes
-- View booked appointments
+- Select date & time
 - Delete appointments
-- Real-time appointment status updates
-
-### Appointment Status Support
-- Pending
-- Completed
-- Cancelled
+- Real-time updates
+- Status:
+  - Pending
+  - Completed
+  - Cancelled
 
 ### Messages & Chat
-- Real-time chat using Firestore
-- Automatic conversation creation
-- Doctor conversation list
-- Real-time message loading
-- Send/receive chat flow
+- Real-time chat (Firestore)
+- Auto conversation creation
+- Send / Receive messages
 
 ### Profile
-- User profile screen
-- Logout functionality
-- Reusable profile tiles
-- Clean and organized UI sections
+- Profile screen
+- Logout
+- Clean UI
 
 ---
 
 ## Tech Stack
 
-- **Flutter**
-- **Dart**
-- **BLoC**
-- **Firebase Authentication**
-- **Cloud Firestore**
-- **Cloudinary**
-- **Material Design**
-
----
-
-## Architecture
-
-This project is built using a **feature-based architecture**, where each feature is separated into dedicated layers for better maintainability, scalability, and code organization.
-
-### Main Layers
-- `data`
-- `models`
-- `services`
-- `repositories`
-- `presentation`
-- `screens`
-- `widgets`
-- `bloc`
-
-This structure makes the project easier to maintain and highly extensible for future production-level improvements.
+- Flutter
+- Dart
+- BLoC
+- Firebase Auth
+- Cloud Firestore
+- Cloudinary
 
 ---
 
@@ -109,17 +78,8 @@ This structure makes the project easier to maintain and highly extensible for fu
 
 ```bash
 lib/
-│
 ├── app/
-│   ├── app.dart
-│   └── routes/
-│
 ├── core/
-│   ├── helpers/
-│   ├── loading/
-│   ├── services/
-│   └── utils/
-│
 ├── features/
 │   ├── auth/
 │   ├── home/
@@ -130,41 +90,85 @@ lib/
 │   ├── onboarding/
 │   ├── profile/
 │   └── splash/
-│
-├── firebase_options.dart
-└── main.dart
+|   └── firebase_options.dart
+|   └── main.dart
+
+
+
 Screenshots
 Splash Screen
-<p align="center"> <img src="images/screenshot/splash_screen.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/splash_screen.png" width="220"/> </p>
 Login Screen
-<p align="center"> <img src="images/screenshot/login_screen.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/login_screen.png" width="220"/> </p>
 Register Screen
-<p align="center"> <img src="images/screenshot/register_screen.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/register_screen.png" width="220"/> </p>
 Google Sign-In
-<p align="center"> <img src="images/screenshot/goggle_signin.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/google_signin.png" width="220"/> </p>
 Home Screen
-<p align="center"> <img src="images/screenshot/home_screen.png" width="230"/> <img src="images/screenshot/home_screen_1.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/home_screen.png" width="220"/> <img src="images/screenshoot/home_screen_1.png" width="220"/> </p>
 All Categories
-<p align="center"> <img src="images/screenshot/all_categories.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/all_categories.png" width="220"/> </p>
 All Doctors
-<p align="center"> <img src="images/screenshot/all_doctors.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/all_doctors.png" width="220"/> </p>
 Doctor Details
-<p align="center"> <img src="images/screenshot/doctor_detail_1.png" width="230"/> <img src="images/screenshot/doctor_detail_2.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/doctor_detail_1.png" width="220"/> <img src="images/screenshoot/doctor_detail_2.png" width="220"/> </p>
 New Appointment
-<p align="center"> <img src="images/screenshot/new_appointment.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/new_appointment.png" width="220"/> </p>
 Appointment Details
-<p align="center"> <img src="images/screenshot/appointment_detail.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/appointment_detail.png" width="220"/> </p>
 Appointments Screen
-<p align="center"> <img src="images/screenshot/appointments_screen.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/appointments_screen.png" width="220"/> </p>
 Delete Appointment
-<p align="center"> <img src="images/screenshot/delete_appointment.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/delete_appointment.png" width="220"/> </p>
 Success Screen
-<p align="center"> <img src="images/screenshot/sucess_screen.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/sucess_screen.png" width="220"/> </p>
 Messages Screen
-<p align="center"> <img src="images/screenshot/message_screen.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/message_screen.png" width="220"/> </p>
 Chat Screen
-<p align="center"> <img src="images/screenshot/chat_screen.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/chat_screen.png" width="220"/> </p>
 Profile Screen
-<p align="center"> <img src="images/screenshot/profile_screen.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/profile_screen.png" width="220"/> </p>
 Logout
-<p align="center"> <img src="images/screenshot/logout.png" width="230"/> <img src="images/screenshot/logout_2.png" width="230"/> </p>
+<p align="center"> <img src="images/screenshoot/logout.png" width="220"/> <img src="images/screenshoot/logout_2.png" width="220"/> </p>
+Demo Video
+<p align="center"> <img src="images/screenshoot/Screenshot_1776792817.png" width="260"/> </p>
+
+Demo video will be added soon.
+
+
+Real-Time Features
+. Live chat messages
+. Appointment updates from dashboard
+. Firestore sync
+. Auto conversation creation
+
+
+Scalability & Future Improvements
+
+This project is designed to be extendable and production-ready.
+
+Future improvements:
+
+. Multi-language support
+. Dark / Light theme
+. Push notifications
+. Chat seen status
+. Typing indicator
+. Online/offline status
+. Advanced search & filters
+. Role-based system
+. File/image sharing in chat
+. Admin Dashboard
+
+This app is connected to an admin dashboard that allows:
+
+. Manage doctors
+. Manage categories
+. Manage appointments
+. Chat with users
+
+
+Author
+
+Majd Noufal
+Flutter Developer

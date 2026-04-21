@@ -183,7 +183,7 @@ lib/
 ## 🎬 Demo Video
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=https://youtube.com/shorts/qL1TkT0hunc">
+<a href="https://www.youtube.com/watch?v=qL1TkT0hunc">
 <img src="images/screenshoot/Screenshot_1776792817.png" width="260"/>
 </a>
 </p>

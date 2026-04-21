@@ -130,3 +130,45 @@ Profile Screen
 <p align="center"> <img src="images/screenshoot/profile_screen.png" width="220"/> </p>
 Logout
 <p align="center"> <img src="images/screenshoot/logout.png" width="220"/> <img src="images/screenshoot/logout_2.png" width="220"/> </p>
+
+Demo Video
+<p align="center"> <img src="images/screenshoot/Screenshot_1776792817.png" width="260"/> </p>
+
+Demo video will be added soon.
+
+Real-Time Features
+. Live chat messages
+. Appointment updates from dashboard
+. Firestore synchronization
+. Automatic conversation creation
+. Scalability & Future Improvements
+
+This project is designed to be extendable and production-ready.
+
+Future improvements:
+
+. Multi-language support
+. Dark / Light theme
+. Push notifications
+. Chat seen status
+. Typing indicator
+. Online/offline status
+. Advanced search & filters
+. Role-based system
+. File and image sharing in chat
+
+
+Admin Dashboard
+
+This app is connected to an admin dashboard that allows:
+
+Manage doctors
+Manage categories
+Manage appointments
+Chat with users
+
+
+Author
+
+Majd Noufal
+Flutter Developer

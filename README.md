@@ -93,9 +93,7 @@ lib/
 ├── firebase_options.dart
 └── main.dart
 
-
-## Screenshots
-
+Screenshots
 Splash Screen
 <p align="center"> <img src="images/screenshoot/splash_screen.png" width="220"/> </p>
 Login Screen
@@ -141,13 +139,14 @@ Real-Time Features
 . Appointment updates from dashboard
 . Firestore synchronization
 . Automatic conversation creation
-. Scalability & Future Improvements
+
+Scalability & Future Improvements
 
 This project is designed to be extendable and production-ready.
 
 Future improvements:
 
-. Multi-language support
+Multi-language support
 . Dark / Light theme
 . Push notifications
 . Chat seen status
@@ -157,18 +156,16 @@ Future improvements:
 . Role-based system
 . File and image sharing in chat
 
-
 Admin Dashboard
 
 This app is connected to an admin dashboard that allows:
 
-Manage doctors
-Manage categories
-Manage appointments
-Chat with users
+. Manage doctors
+. Manage categories
+. Manage appointments
+. Chat with users
 
-
-Author
+Author:
 
 Majd Noufal
 Flutter Developer

@@ -1,82 +1,59 @@
-# Doctor Appointment App
-
+Doctor Appointment App
 A modern Flutter-based doctor appointment application that allows users to explore medical specialties, browse doctors, book appointments, manage bookings, and chat with doctors through a clean, scalable, and production-oriented mobile experience.
 
----
-
-## Overview
-
+Overview
 Doctor Appointment App is a complete healthcare booking mobile application built with Flutter and powered by Firebase.
 
 The app provides a smooth and intuitive user journey starting from onboarding and authentication, moving through doctor discovery, and ending with appointment booking, messaging, and profile management.
 
 The project follows a feature-based architecture with BLoC state management for scalability and clean code.
 
----
-
-## Key Features
-
-### Authentication
-- Email & Password Login / Register
-- Google Sign-In
-- Logout
-- Validation & Error Handling
-
-### Onboarding & Splash
-- Custom splash screen
-- Smooth onboarding experience
-
-### Home
-- Welcome section
-- Categories preview
-- Top doctors
-- Search UI
-
-### Categories
-- Dynamic categories from Firebase
-- Icon mapping system
-
-### Doctors
-- Doctor listing
-- Doctor details
-- Specialty & pricing
-
-### Appointments
-- Book appointments
-- Select date & time
-- Delete appointments
-- Real-time updates
-- Status:
-  - Pending
-  - Completed
-  - Cancelled
-
-### Messages & Chat
-- Real-time chat using Firestore
-- Automatic conversation creation
-- Send / Receive messages
-
-### Profile
-- Profile screen
-- Logout
-- Clean UI
-
----
-
-## Tech Stack
-
-- Flutter
-- Dart
-- BLoC
-- Firebase Authentication
-- Cloud Firestore
-- Cloudinary
-
----
-
-## Project Structure
-
-```bash
+Key Features
+Authentication
+Email & Password Login / Register
+Google Sign-In
+Logout
+Validation & Error Handling
+Onboarding & Splash
+Custom splash screen
+Smooth onboarding experience
+Home
+Welcome section
+Categories preview
+Top doctors
+Search UI
+Categories
+Dynamic categories from Firebase
+Icon mapping system
+Doctors
+Doctor listing
+Doctor details
+Specialty & pricing
+Appointments
+Book appointments
+Select date & time
+Delete appointments
+Real-time updates
+Status:
+Pending
+Completed
+Cancelled
+Messages & Chat
+Real-time chat using Firestore
+Automatic conversation creation
+Send / Receive messages
+Profile
+Profile screen
+Logout
+Clean UI
+Tech Stack
+Flutter
+Dart
+BLoC
+Firebase Authentication
+Cloud Firestore
+Cloudinary
+Project Structure
 lib/
 ├── app/
 ├── core/

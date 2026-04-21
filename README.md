@@ -124,7 +124,7 @@ lib/
 ### Google Sign-In
 
 <p align="center">
-<img src="images/screenshoot/google_signin.png" width="200"/>
+<img src="images/screenshoot/goggle_signin.png" width="200"/>
 </p>
 
 ### Home Screen

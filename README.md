@@ -8,7 +8,7 @@ A modern Flutter-based doctor appointment application that allows users to explo
 
 Doctor Appointment App is a complete healthcare booking mobile application built with Flutter and powered by Firebase.
 
-The app provides a smooth user journey starting from onboarding and authentication, مرورًا بتصفح الأطباء والتخصصات، وصولًا إلى الحجز والدردشة وإدارة الحساب.
+The app provides a smooth and intuitive user journey starting from onboarding and authentication, moving through doctor discovery, and ending with appointment booking, messaging, and profile management.
 
 The project follows a feature-based architecture with BLoC state management for scalability and clean code.
 
@@ -52,8 +52,8 @@ The project follows a feature-based architecture with BLoC state management for 
   - Cancelled
 
 ### Messages & Chat
-- Real-time chat (Firestore)
-- Auto conversation creation
+- Real-time chat using Firestore
+- Automatic conversation creation
 - Send / Receive messages
 
 ### Profile
@@ -68,7 +68,7 @@ The project follows a feature-based architecture with BLoC state management for 
 - Flutter
 - Dart
 - BLoC
-- Firebase Auth
+- Firebase Authentication
 - Cloud Firestore
 - Cloudinary
 
@@ -90,12 +90,12 @@ lib/
 │   ├── onboarding/
 │   ├── profile/
 │   └── splash/
-|   └── firebase_options.dart
-|   └── main.dart
+├── firebase_options.dart
+└── main.dart
 
 
+## Screenshots
 
-Screenshots
 Splash Screen
 <p align="center"> <img src="images/screenshoot/splash_screen.png" width="220"/> </p>
 Login Screen
@@ -130,45 +130,3 @@ Profile Screen
 <p align="center"> <img src="images/screenshoot/profile_screen.png" width="220"/> </p>
 Logout
 <p align="center"> <img src="images/screenshoot/logout.png" width="220"/> <img src="images/screenshoot/logout_2.png" width="220"/> </p>
-Demo Video
-<p align="center"> <img src="images/screenshoot/Screenshot_1776792817.png" width="260"/> </p>
-
-Demo video will be added soon.
-
-
-Real-Time Features
-. Live chat messages
-. Appointment updates from dashboard
-. Firestore sync
-. Auto conversation creation
-
-
-Scalability & Future Improvements
-
-This project is designed to be extendable and production-ready.
-
-Future improvements:
-
-. Multi-language support
-. Dark / Light theme
-. Push notifications
-. Chat seen status
-. Typing indicator
-. Online/offline status
-. Advanced search & filters
-. Role-based system
-. File/image sharing in chat
-. Admin Dashboard
-
-This app is connected to an admin dashboard that allows:
-
-. Manage doctors
-. Manage categories
-. Manage appointments
-. Chat with users
-
-
-Author
-
-Majd Noufal
-Flutter Developer

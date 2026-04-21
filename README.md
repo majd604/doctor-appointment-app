@@ -1,36 +1,37 @@
 # Doctor Appointment App
 
-A modern Flutter-based doctor appointment application that helps users browse medical specialties, explore doctors, book appointments, manage bookings, and chat with doctors through a clean and scalable mobile experience.
+A modern Flutter-based doctor appointment application that allows users to explore medical specialties, browse doctors, book appointments, manage bookings, and chat with doctors through a clean, scalable, and production-oriented mobile experience.
 
 ---
 
 ## Overview
 
-Doctor Appointment App is a complete mobile healthcare booking solution built with **Flutter** and powered by **Firebase**.  
-The app is designed to deliver a smooth user journey starting from authentication and onboarding, مرورًا بتصفح التخصصات والأطباء، وصولًا إلى حجز المواعيد والدردشة وإدارة الملف الشخصي.
+**Doctor Appointment App** is a complete healthcare booking mobile application built with **Flutter** and powered by **Firebase**.
 
-The project follows a scalable feature-based structure and uses modern state management to keep the codebase organized and extendable.
+The app is designed to provide a smooth and intuitive user journey, starting from splash and onboarding, moving through authentication and doctor discovery, and ending with appointment booking, messaging, and profile management.
+
+The project follows a **feature-based architecture** and uses **BLoC** for state management, making the codebase clean, maintainable, and easy to scale for future enhancements.
 
 ---
 
-## Features
+## Key Features
 
 ### Authentication
-- User registration with email and password
-- User login with email and password
+- Register with email and password
+- Login with email and password
 - Google Sign-In
 - Logout
 - Input validation
-- Forgot password dialog
+- Forgot password flow
 
 ### Onboarding & Splash
 - Custom splash screen
 - Onboarding flow for first-time users
-- Smooth user entry experience
+- Smooth entry experience for new users
 
 ### Home
 - Personalized welcome section
-- Categories preview
+- Medical categories preview
 - Top doctors preview
 - Search UI
 - Clean and modern layout
@@ -44,31 +45,33 @@ The project follows a scalable feature-based structure and uses modern state man
 - View top doctors
 - View all doctors
 - Doctor details screen
-- Doctor info, description, pricing, and specialty display
+- Doctor information, specialty, pricing, and description
 
 ### Appointments
 - Book appointments
-- Pick date and time
+- Select date and time
 - Add optional notes
-- View all booked appointments
+- View booked appointments
 - Delete appointments
-- Real-time appointment updates from dashboard
-- Appointment status support:
-  - Pending
-  - Completed
-  - Cancelled
+- Real-time appointment status updates
+
+### Appointment Status Support
+- Pending
+- Completed
+- Cancelled
 
 ### Messages & Chat
-- Real conversation system with Firestore
+- Real-time chat using Firestore
 - Automatic conversation creation
 - Doctor conversation list
 - Real-time message loading
-- Chat screen with send/receive flow
+- Send/receive chat flow
 
 ### Profile
 - User profile screen
 - Logout functionality
-- Reusable profile tiles and clean UI sections
+- Reusable profile tiles
+- Clean and organized UI sections
 
 ---
 
@@ -86,19 +89,19 @@ The project follows a scalable feature-based structure and uses modern state man
 
 ## Architecture
 
-This project is built using a **feature-based architecture**, where each feature is separated into its own layers for better maintainability and scalability.
+This project is built using a **feature-based architecture**, where each feature is separated into dedicated layers for better maintainability, scalability, and code organization.
 
-### Main layers used
-- **data**
-  - models
-  - services
-  - repositories
-- **presentation**
-  - screens
-  - widgets
-  - bloc
+### Main Layers
+- `data`
+- `models`
+- `services`
+- `repositories`
+- `presentation`
+- `screens`
+- `widgets`
+- `bloc`
 
-This structure keeps the project organized and makes future expansion easier.
+This structure makes the project easier to maintain and highly extensible for future production-level improvements.
 
 ---
 
@@ -132,111 +135,36 @@ lib/
 └── main.dart
 Screenshots
 Splash Screen
-<p align="center"> <img src="images/screenshoot/splash_screen.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/splash_screen.png" width="230"/> </p>
 Login Screen
-<p align="center"> <img src="images/screenshoot/login_screen.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/login_screen.png" width="230"/> </p>
 Register Screen
-<p align="center"> <img src="images/screenshoot/register_screen.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/register_screen.png" width="230"/> </p>
 Google Sign-In
-<p align="center"> <img src="images/screenshoot/goggle_signin.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/goggle_signin.png" width="230"/> </p>
 Home Screen
-<p align="center"> <img src="images/screenshoot/home_screen.png" width="220"/> <img src="images/screenshoot/home_screen_1.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/home_screen.png" width="230"/> <img src="images/screenshot/home_screen_1.png" width="230"/> </p>
 All Categories
-<p align="center"> <img src="images/screenshoot/all_categories.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/all_categories.png" width="230"/> </p>
 All Doctors
-<p align="center"> <img src="images/screenshoot/all_doctors.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/all_doctors.png" width="230"/> </p>
 Doctor Details
-<p align="center"> <img src="images/screenshoot/doctor_detail_1.png" width="220"/> <img src="images/screenshoot/doctor_detail_2.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/doctor_detail_1.png" width="230"/> <img src="images/screenshot/doctor_detail_2.png" width="230"/> </p>
 New Appointment
-<p align="center"> <img src="images/screenshoot/new_appointment.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/new_appointment.png" width="230"/> </p>
 Appointment Details
-<p align="center"> <img src="images/screenshoot/appointment_detail.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/appointment_detail.png" width="230"/> </p>
 Appointments Screen
-<p align="center"> <img src="images/screenshoot/appointments_screen.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/appointments_screen.png" width="230"/> </p>
 Delete Appointment
-<p align="center"> <img src="images/screenshoot/delete_appointment.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/delete_appointment.png" width="230"/> </p>
 Success Screen
-<p align="center"> <img src="images/screenshoot/sucess_screen.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/sucess_screen.png" width="230"/> </p>
 Messages Screen
-<p align="center"> <img src="images/screenshoot/message_screen.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/message_screen.png" width="230"/> </p>
 Chat Screen
-<p align="center"> <img src="images/screenshoot/chat_screen.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/chat_screen.png" width="230"/> </p>
 Profile Screen
-<p align="center"> <img src="images/screenshoot/profile_screen.png" width="220"/> </p>
+<p align="center"> <img src="images/screenshot/profile_screen.png" width="230"/> </p>
 Logout
-<p align="center"> <img src="images/screenshoot/logout.png" width="220"/> <img src="images/screenshoot/logout_2.png" width="220"/> </p>
-Demo Video
-Application Demo
-<p align="center"> <img src="images/screenshoot/Screenshot_1776792817.png" width="260"/> </p>
-
-Demo video link will be added soon.
-
-Firebase Collections
-
-The application works with the following main Firestore collections:
-
-users
-doctors
-categories
-appointments
-conversations
-messages subcollection
-Real-Time Features
-Appointment status changes from the dashboard appear directly in the mobile app
-Chat messages are loaded in real time
-Conversations are automatically created and synced with Firestore
-Appointment deletion and updates are reflected dynamically
-Scalability & Extensibility
-
-This project was built with future growth in mind.
-The architecture is suitable for adding more advanced features without needing to rewrite the whole app.
-
-Possible future improvements include:
-
-Multi-language support
-Dark mode / light mode
-Push notifications
-Appointment reminders
-Seen / unread message status
-Typing indicator in chat
-Online / offline status
-Search and filtering improvements
-Role-based access for different user types
-Image or file sharing in chat
-Analytics and admin reporting
-Better pagination for large datasets
-Enhanced security rules and validation
-Why This Project Matters
-
-This is not just a simple Flutter demo app.
-It is part of a larger healthcare booking system that includes:
-
-A real mobile application for patients
-A connected admin dashboard for management
-Real-time synchronization using Firebase
-Scalable structure for future production-level growth
-
-This makes the project a strong portfolio example for showcasing:
-
-Flutter UI skills
-Firebase integration
-State management with BLoC
-Real-time data handling
-Feature-based architecture
-Admin Dashboard
-
-This mobile app is connected to a separate admin dashboard used for:
-
-Managing doctors
-Managing categories
-Managing appointments
-Updating appointment status
-Reading and replying to patient messages
-
-The dashboard repository can be linked here later.
-
-Author
-
-Majd Noufal
-
-Flutter Developer focused on building clean, modern, and scalable mobile applications using Flutter and Firebase.
+<p align="center"> <img src="images/screenshot/logout.png" width="230"/> <img src="images/screenshot/logout_2.png" width="230"/> </p>

@@ -160,7 +160,7 @@ lib/
 
 <p align="center">
 <img src="images/screenshoot/delete_appointment.png" width="200"/>
-<img src="images/screenshoot/success_screen.png" width="200"/>
+<img src="images/done.png" width="200"/>
 </p>
 
 ### Messages & Chat
